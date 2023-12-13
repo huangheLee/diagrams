@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T08:09:19.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.8" etag="DrJtclop1guEYTVj6M7l" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T09:30:55.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="v3qnzGRLz1nQHPinkAet" version="22.1.8" type="github">
   <diagram name="第 1 页" id="9TA7ackutGvhBLkoKlSz">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="685" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IPmDCuHy6IRndc-jKpU1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="27" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IPmDCuHy6IRndc-jKpU1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IPmDCuHy6IRndc-jKpU1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IPmDCuHy6IRndc-jKpU1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-2" value="&lt;font color=&quot;#ffffff&quot;&gt;商家&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-15" value="商品添加" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-16" value="商品编辑" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-17" value="商品上架" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-18" value="商品下架架" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="IPmDCuHy6IRndc-jKpU1-15">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="100" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-21" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="IPmDCuHy6IRndc-jKpU1-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="100" y="430" as="sourcePoint" />
+            <mxPoint x="240" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-22" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=-0.06;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="IPmDCuHy6IRndc-jKpU1-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="100" y="430" as="sourcePoint" />
+            <mxPoint x="240" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IPmDCuHy6IRndc-jKpU1-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" target="IPmDCuHy6IRndc-jKpU1-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="100" y="430" as="sourcePoint" />
+            <mxPoint x="234" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
